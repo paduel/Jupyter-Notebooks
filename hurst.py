@@ -43,7 +43,7 @@ class HurstExponent(PeriodN):
 
     alias = ('Hurst',)
     lines = ('hurst',)
-    params = (('period', 2000), ('lag_start', 10), ('lag_end', 300),)
+    params = (('period', 2000), ('lag_start', 10), ('lag_end', 500),)
 
     def __init__(self):
         super(HurstExponent, self).__init__()
